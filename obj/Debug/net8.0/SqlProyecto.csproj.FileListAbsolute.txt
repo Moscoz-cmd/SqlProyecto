@@ -1,0 +1,9 @@
+Z:\Programacion\SqlProyecto\obj\Debug\net8.0\SqlProyecto.csproj.AssemblyReference.cache
+Z:\Programacion\SqlProyecto\obj\Debug\net8.0\SqlProyecto.GeneratedMSBuildEditorConfig.editorconfig
+Z:\Programacion\SqlProyecto\obj\Debug\net8.0\SqlProyecto.AssemblyInfoInputs.cache
+Z:\Programacion\SqlProyecto\obj\Debug\net8.0\SqlProyecto.AssemblyInfo.cs
+Z:\Programacion\SqlProyecto\obj\Debug\net8.0\SqlProyecto.csproj.CoreCompileInputs.cache
+Z:\Programacion\SqlProyecto\obj\Debug\net8.0\SqlProyecto.MvcApplicationPartsAssemblyInfo.cache
+Z:\Programacion\SqlProyecto\obj\Debug\net8.0\SqlProyecto.RazorAssemblyInfo.cache
+Z:\Programacion\SqlProyecto\obj\Debug\net8.0\SqlProyecto.RazorAssemblyInfo.cs
+Z:\Programacion\SqlProyecto\obj\Debug\net8.0\SqlProyecto.sourcelink.json
