@@ -1,23 +1,20 @@
 namespace SqlProyecto.Models;
-
-public class DatoFamiliar
-{
+public class DatoFamiliar{
 public int Id{ get; private set; }
-public int IdUsuario{ get; private set; }
-public int TipoInteres{ get; private set; }
-//Hobby Serie Amigo Gusto
-public string Interes { get; private set; }
+public int IdUsuario { get; private set; }
+public string Nombre { get; private set; }
+public string Apellido{ get; private set; }
+public string Parentesco{ get; private set; }
+public string Descripción{ get; private set; }
 
-
-public DatoFamiliar(int id, int IdUsuario, int TipoInteres)
+public DatoFamiliar(int Id, int IdUsuario, string Nombre, string Apellido, string Parentesco, string Descripcion)
 {
- this.Id= id;
+ this.Id= Id;
  this.IdUsuario=IdUsuario;
- this.TipoInteres= TipoInteres;
-
-}
-public DatoFamiliar()
-{
+ this.Nombre=Nombre;
+ this.Apellido=Apellido;
+ this.Parentesco=Parentesco;
+ this.Descripción=Descripcion;
 
 }
 

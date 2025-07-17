@@ -1,21 +1,22 @@
-namespace SqlProyecto;
-public class DatoInteres{
-public int Id{ get; private set; }
-public int IdUsuario { get; private set; }
-public string Nombre { get; private set; }
-public string Apellido{ get; private set; }
-public string Parentesco{ get; private set; }
-public string Descripción{ get; private set; }
+using Dapper;
+namespace SqlProyecto.Models;
 
-public DatoInteres(int Id, int IdUsuario, string Nombre, string Apellido, string Parentesco, string Descripcion)
+public class DatoInteres
 {
- this.Id= Id;
- this.IdUsuario=IdUsuario;
- this.Nombre=Nombre;
- this.Apellido=Apellido;
- this.Parentesco=Parentesco;
- this.Descripción=Descripcion;
+public int Id{ get; private set; }
+public int IdUsuario{ get; private set; }
+public int TipoInteres{ get; private set; }
+//Hobby Serie Amigo Gusto
+public string Interes { get; private set; }
 
+
+public DatoInteres(int id, int IdUsuario, int TipoInteres, string Interes)
+{
+ this.Id= id;
+ this.IdUsuario=IdUsuario;
+ this.TipoInteres= TipoInteres;
+this.Interes = Interes;
 }
+
 
 }

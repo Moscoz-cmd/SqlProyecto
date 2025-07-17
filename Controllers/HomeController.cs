@@ -13,8 +13,26 @@ public class HomeController : Controller
         _logger = logger;
     }
 
-    public IActionResult Index()
+  public IActionResult Index()
     {
+        
         return View();
     }
+    public IActionResult Integrantes(int id)
+    {
+        
+        return View("DatosPersonales");
+    }
+    public IActionResult MostrarDatosFamiliares(int dni)
+    {
+        
+        return View("infoDatosFamiliares");
+    }
+    public IActionResult MostrarDatosIntereses(int dni)
+    {
+        
+        return View("infoDatosInteres");
+    }
+
+
 }

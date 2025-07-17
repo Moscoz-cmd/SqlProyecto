@@ -75,3 +75,7 @@ Z:\Programacion\SqlProyecto\obj\Debug\net8.0\refint\SqlProyecto.dll
 Z:\Programacion\SqlProyecto\obj\Debug\net8.0\SqlProyecto.pdb
 Z:\Programacion\SqlProyecto\obj\Debug\net8.0\SqlProyecto.genruntimeconfig.cache
 Z:\Programacion\SqlProyecto\obj\Debug\net8.0\ref\SqlProyecto.dll
+Z:\Programacion\SqlProyecto\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
+Z:\Programacion\SqlProyecto\bin\Debug\net8.0\Microsoft.Extensions.Hosting.Abstractions.dll
+Z:\Programacion\SqlProyecto\bin\Debug\net8.0\Newtonsoft.Json.dll
+Z:\Programacion\SqlProyecto\bin\Debug\net8.0\System.Security.Cryptography.Xml.dll
